@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>includes/Blast7Factory.h</itemPath>
+      <itemPath>includes/Exceptions.h</itemPath>
+      <itemPath>includes/TimeUtils.h</itemPath>
+      <itemPath>includes/UniprotFactory.h</itemPath>
+      <itemPath>includes/berror.h</itemPath>
+      <itemPath>includes/bmemory.h</itemPath>
+      <itemPath>includes/bstring.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/Blast7Factory.cpp</itemPath>
+      <itemPath>src/UniprotFactory.cpp</itemPath>
+      <itemPath>src/berror.c</itemPath>
+      <itemPath>src/bmemory.c</itemPath>
+      <itemPath>src/bstring.c</itemPath>
+      <itemPath>src/main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>includes</pElem>
+          </incDir>
+          <commandLine>-Wall -g</commandLine>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+          <incDir>
+            <pElem>includes</pElem>
+          </incDir>
+          <commandLine>-Wall -g</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/myBlast2GO</output>
+        </linkerTool>
+      </compileType>
+      <item path="includes/Blast7Factory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/Exceptions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/TimeUtils.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/UniprotFactory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/berror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/bmemory.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes/bstring.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/Blast7Factory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/UniprotFactory.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/berror.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/bmemory.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/bstring.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
