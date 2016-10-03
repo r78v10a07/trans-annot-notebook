@@ -4,6 +4,7 @@ data/SRP005904
 data/bioproject-PRJNA67621.fsa
 data/idmapping_selected.tab
 data/wget.log
+data/ec2go
 
 # Source files
 
@@ -108,3 +109,4 @@ ENV/
 # PyCharm
 
 .idea
+

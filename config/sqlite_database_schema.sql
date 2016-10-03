@@ -60,7 +60,7 @@ CREATE INDEX "blastx_temp_qacc" ON "blastx_temp" (`qacc`);
 CREATE TABLE `enzymes` (
   `id`  INTEGER PRIMARY KEY AUTOINCREMENT,
   `accession` varchar(45) NOT NULL,
-  `name` varchar(255) NOT NULL
+  `name` varchar(255)
 );
 CREATE INDEX "enzymes_accession" ON "enzymes" (`accession`);
 
@@ -79,6 +79,14 @@ CREATE TABLE `gi2go` (
 );
 CREATE INDEX "gi2go_go" ON "gi2go" (`go`);
 CREATE INDEX "gi2go_gi" ON "gi2go" (`gi`);
+
+CREATE TABLE `ec2go` (
+  `ec` varchar(45) NOT NULL,
+  `go` varchar(45) NOT NULL
+);
+CREATE INDEX "ec2go_go" ON "ec2go" (`go`);
+CREATE INDEX "ec2go_ec" ON "ec2go" (`ec`);
+
 
 CREATE TABLE `go` (
   `id`  INTEGER PRIMARY KEY AUTOINCREMENT,
