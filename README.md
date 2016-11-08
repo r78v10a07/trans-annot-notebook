@@ -42,7 +42,7 @@ These programs have to be installed and included in the user PATH variable.
 Execute this commands in a BASH terminal just the first time to get the notebook dependencies installed.
 
 ```
-$ git clone 
+$ git clone https://github.com/r78v10a07/trans-annot-notebook
 $ cd trans-annot-notebook
 
 # Compiling the myBlast2GO C++ tool
