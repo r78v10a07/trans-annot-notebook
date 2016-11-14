@@ -17,7 +17,7 @@ Experimental data, specifically data coming from next-generation DNA sequencing 
 
 ## Notebook
 
-This is a Jupyter Notebook which illustrate the workflow used for the transcript annotation process. This Github project can be clone and executed in a compatible environment.
+A Jupyter Notebook https://github.com/r78v10a07/trans-annot-notebook/blob/master/docs/Notebook.ipynb, which illustrate the workflow used for the transcript annotation process is available. This Github project can be clone and executed in a compatible environment.
 
 ## Requirements
 

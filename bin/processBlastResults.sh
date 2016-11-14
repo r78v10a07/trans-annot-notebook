@@ -50,7 +50,7 @@ rm -f blastx_to_load.tsv
 for blastx in `find $t -maxdepth 2 -name "*_blastx.tsv"`
 do
     dir=`dirname $blastx`
-    cat $blastx | grep -v "^#" | cut -c 17-24,28-  >> blastx_to_load.tsv
+    cat $blastx | grep -v "^#" >> blastx_to_load.tsv
     cat $blastx | grep -v "^#" | cut -f 2
 done | sort -un > proteins.ids
 
